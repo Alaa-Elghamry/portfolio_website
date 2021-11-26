@@ -54,10 +54,10 @@ const Timeline = () => {
       </SectionText>
 
       <Button>
-          <a href="https://alaa-elghamry.hashnode.dev/"  target="_blank" style={{color :'white'}}>
-          Download Resume
+          <a href="../Alaa-Elghamry7.pdf" download style={{color :'white'}}>
+                Download Resume
           </a>
-          </Button>
+       </Button>
       <br/>
 
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
