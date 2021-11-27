@@ -47,7 +47,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
        <br/>
-       
+       {/* Alaa */}
       <SectionText>
         I'm a Fresh Graduate from the Faculty Of Engineering, a Modern Design Enthusiast,
        <br/>  Passionate about Animation, 3D Graphics, Virtual Reality,
