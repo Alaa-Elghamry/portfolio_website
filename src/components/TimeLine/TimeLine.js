@@ -49,8 +49,9 @@ const Timeline = () => {
        <br/>
        
       <SectionText>
-        I'm a Modern Design Enthusiast, Passionate about Animation, 3D Graphics, Virtual Reality,
-         and making Awesome User Interfaces to attract more users everywhere.
+        I'm a Fresh Graduate from the Faculty Of Engineering, a Modern Design Enthusiast,
+       <br/>  Passionate about Animation, 3D Graphics, Virtual Reality,
+         and making Awesome User Interfaces.
       </SectionText>
 
       <Button>
