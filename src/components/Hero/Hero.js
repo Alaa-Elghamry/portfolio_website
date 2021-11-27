@@ -18,7 +18,7 @@ const Hero = (props) => {
     });
   }, []);
   return (
-    <Section row nopadding>
+    <Section id="hero" row nopadding>
       <LeftSection>
         <SectionTitle main center>
           Welcome To My <br />
