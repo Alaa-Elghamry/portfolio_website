@@ -14,6 +14,8 @@ const Header = () =>  (
         </a>
       </Link>
     </Div1>
+
+
     <Div2 >
       <li>
         <Link href="#projects">
@@ -29,8 +31,10 @@ const Header = () =>  (
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
-      </li>        
+      </li>  
     </Div2>
+
+
       <Div3>
         <SocialIcons href="https://github.com/Alaa-Elghamry" target="_blank">
           <AiFillGithub size="3rem" />
@@ -42,6 +46,7 @@ const Header = () =>  (
           <AiFillTwitterCircle size="3rem"/>
         </SocialIcons>
       </Div3>
+
     </Container>
 );
 
