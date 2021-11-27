@@ -131,3 +131,14 @@ export const ListIcon = styled.img`
     margin-bottom: 0px;
   }
 `
+export const Stack = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 32px;
+  &:first-of-type{
+    margin-left: 0px;
+    
+  }
+
+`; 
