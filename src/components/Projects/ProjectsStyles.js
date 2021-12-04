@@ -1,10 +1,15 @@
 import styled from 'styled-components';
 
+export const ImgContainer = styled.div`
+overflow: hidden;
+`
 export const Img = styled.img`
   width:100%;
-  height:100%;
-  object-fit: cover;
-  overflow: hidden;
+  
+  transition: all 8s ease;
+  &:hover{
+    transform: translateY(-100%);
+  }
 `
 
 export const GridContainer = styled.section`
@@ -22,8 +27,23 @@ row-gap: 3rem;
 }
 
 `
+export const Browser = styled.div`
+height: 20px;
+background-color: rgba(255, 255, 255, 0.66);
+display: flex;
+align-items: center;
+
+`
+export const Circle = styled.div `
+width: 6px;
+height: 6px;
+border-radius: 50%;
+background-color: white;
+margin: 4px;
+
+`
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
