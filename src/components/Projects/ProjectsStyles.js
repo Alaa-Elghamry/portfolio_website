@@ -1,18 +1,5 @@
 import styled from 'styled-components';
 
-export const ImgContainer = styled.div`
-overflow: hidden;
-height: 40vh;
-
-`
-export const Img = styled.img`
-  width:100%;
-  
-  transition: all 10s ease;
-  &:hover{
-    transform: translateY(-80%);
-  }
-`
 
 export const GridContainer = styled.section`
 display: grid;
@@ -36,6 +23,20 @@ export const BlogCard = styled.div`
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+  }
+`;
+
+export const ImgContainer = styled.div`
+overflow: hidden;
+height: 40vh;
+
+`;
+export const Img = styled.img`
+  width:100%;
+  
+  transition: all 10s ease;
+  &:hover{
+    transform: translateY(-80%);
   }
 `;
 export const TitleContent = styled.div`
