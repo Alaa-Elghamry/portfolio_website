@@ -2,13 +2,15 @@ import styled from 'styled-components';
 
 export const ImgContainer = styled.div`
 overflow: hidden;
+height: 40vh;
+
 `
 export const Img = styled.img`
   width:100%;
   
-  transition: all 8s ease;
+  transition: all 10s ease;
   &:hover{
-    transform: translateY(-100%);
+    transform: translateY(-80%);
   }
 `
 
@@ -25,21 +27,6 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
-
-`
-export const Browser = styled.div`
-height: 20px;
-background-color: rgba(255, 255, 255, 0.66);
-display: flex;
-align-items: center;
-
-`
-export const Circle = styled.div `
-width: 6px;
-height: 6px;
-border-radius: 50%;
-background-color: white;
-margin: 4px;
 
 `
 export const BlogCard = styled.div`

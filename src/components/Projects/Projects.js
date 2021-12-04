@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer,  Circle, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, Browser, ImgContainer } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, ImgContainer } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
@@ -12,11 +12,6 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-            <Browser>
-         <Circle></Circle> 
-         <Circle></Circle> 
-         <Circle></Circle> 
-           </Browser>
            <ImgContainer>
           <Img src={p.image} />
           </ImgContainer>
