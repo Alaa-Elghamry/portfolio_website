@@ -17,6 +17,8 @@ export const FilterItems = styled.div`
 
 export const FilterItem = styled.button`
   cursor: pointer;
+  outline: none;
+    border: none;
   font-size: 20px;
   padding: 10px;
   border-radius: 10px;
