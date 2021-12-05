@@ -1,5 +1,35 @@
 import styled from 'styled-components';
 
+export const FilterItems = styled.div`
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 2.4rem auto;
+
+    
+`;
+
+
+export const FilterItem = styled.button`
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  &:hover ,&:focus {
+    background: linear-gradient(270deg, #13ADC7 0%, #945DD6 100%) ;
+    color: black;
+     }
+    &:not(:last-child){
+        margin-right: 3.5rem;
+    }
+  
+`;
+
 
 export const GridContainer = styled.section`
 display: grid;
@@ -50,7 +80,8 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  /* color: #9cc9e3; */
+  color :#d4c0c0;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -60,7 +91,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  background: #d0bb57;
+  background:#d4c0c0;
 `;
 
 export const Intro = styled.div`
@@ -116,5 +147,5 @@ padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
-font-size: 1.5rem;
-`
+font-size: 1.75 rem;
+`;
