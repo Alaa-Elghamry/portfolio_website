@@ -27,7 +27,8 @@ export const FilterItem = styled.button`
     &:not(:last-child){
         margin-right: 3.5rem;
     }
-  
+  /* MS */
+
 `;
 
 
