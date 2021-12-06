@@ -2,7 +2,7 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://alaa-elghamry.github.io/portfolio-website/",
+  "homepage": "https://alaa-elghamry.github.io/portfolio_website/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
