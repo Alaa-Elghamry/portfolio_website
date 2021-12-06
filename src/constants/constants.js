@@ -33,7 +33,7 @@ export const projects  = [
     category: 'Animation',
     title: 'Magic Menu',
     description: "A 3D Menu with cool Animation built with HTML & CSS only!",
-      image: '/images/magic-menu.png',
+      image: '/images/magic-menu.PNG',
       tags: ['HTML5', 'CSS3'],
     code: 'https://github.com/Alaa-Elghamry/Magic-Menu',
     visit: 'https://github.com/Alaa-Elghamry/Magic-Menu',
