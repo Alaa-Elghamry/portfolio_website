@@ -2,12 +2,16 @@
   "name": "portfolio_nextjs",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alaa-elghamry.github.io/portfolio-website/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "ityped": "^1.0.3",
     "next": "10.2.3",
     "react": "17.0.2",
