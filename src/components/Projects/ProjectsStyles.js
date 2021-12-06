@@ -27,7 +27,7 @@ export const FilterItem = styled.button`
     color: black;
      }
     &:not(:last-child){
-        margin-right: 3.5rem;
+        margin-right: 3rem;
     }
   /* MS */
 

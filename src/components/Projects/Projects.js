@@ -27,8 +27,8 @@ function Menu({menuItem=[]}) {
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit}>Code</ExternalLinks>
-              <ExternalLinks href={p.source}>Source</ExternalLinks>
+              <ExternalLinks href={p.code}>Code</ExternalLinks>
+              <ExternalLinks href={p.visit}>Visit</ExternalLinks>
             </UtilityList>
           </BlogCard>
         );
