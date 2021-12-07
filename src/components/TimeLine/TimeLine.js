@@ -55,7 +55,7 @@ const Timeline = () => {
       </SectionText>
 
       <Button>
-          <a href="../Alaa-Elghamry7.pdf" download style={{color :'white'}}>
+          <a href="../Alaa's Resume.pdf" download style={{color :'white'}}>
                 Download Resume
           </a>
        </Button>
