@@ -14,7 +14,7 @@ const Hero = (props) => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Engineer", " Front-End Developer", "Content Creator"],
+      strings: ["an Engineer", "a Front-End Developer", " a Content Creator"],
     });
   }, []);
   return (
