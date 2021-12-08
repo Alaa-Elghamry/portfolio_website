@@ -53,13 +53,13 @@ export const projects  = [
     category: 'Sass',
     title: 'Nexter',
     description: "Nexter is a website to apply different CSS Grid technics.",
-    image: '/images/Nexter.png',
+    image: '/images/Nexter1.png',
     tags: ['Sass', 'HTML5', 'Responsive'],
     code: 'https://github.com/Alaa-Elghamry/NEXTER',
     visit: 'https://alaa-elghamry.github.io/NEXTER/',
     id: 5,
   },
-  
+
   
   {
     category: 'Bootstrap',
