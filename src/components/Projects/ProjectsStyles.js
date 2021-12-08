@@ -8,8 +8,8 @@ export const FilterItems = styled.div`
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    width: 70%;
-    margin: 2.4rem auto;
+    /* margin: 2.4rem auto; */
+    gap: 2rem;
 
     
 `;
