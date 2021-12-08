@@ -60,6 +60,7 @@ export const projects  = [
     id: 5,
   },
   
+  
   {
     category: 'Bootstrap',
     title: 'Candy Museum',
