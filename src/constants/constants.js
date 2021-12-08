@@ -3,7 +3,7 @@ export const projects  = [
     category: 'React',
     title: 'Portfolio Website',
     description: "Using React, Next.js, and styled-components I created this portfolio website with moder UI/Ux design and minimalistic approach.",
-      image: '/images/portfolio-website0.png',
+      image: '/images/My-Portfolio.png',
       tags: ['React', 'Next','styled-components'],
     code: 'https://github.com/Alaa-Elghamry/portfolio_website',
     visit: 'https://alaa-elghamry-portfolio.netlify.app/',
