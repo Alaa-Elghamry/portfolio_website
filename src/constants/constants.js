@@ -81,6 +81,16 @@ export const projects  = [
     visit: 'https://github.com/Alaa-Elghamry/React-Face-Detection',
     id: 7,
   },
+  {
+    category: 'Animation',
+    title: 'MARVEL 3D Cards',
+    description: "A 3D cards with cool marvel theme built with HTML & CSS only!",
+      image: '/images/MARVEL.PNG',
+      tags: ['HTML5', 'CSS3'],
+    code: 'https://github.com/Alaa-Elghamry/MARVEL-3D-Cards',
+    visit: 'https://alaa-elghamry.github.io/MARVEL-3D-Cards/',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
