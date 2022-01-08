@@ -39,16 +39,7 @@ export const projects  = [
     visit: 'https://alaa-elghamry.github.io/Bankist-Website/',
     id: 2,
   },
-  {
-    category: 'Animation',
-    title: 'Magic Menu',
-    description: "A 3D Menu with cool Animation built with HTML & CSS only!",
-      image: '/images/magic-menu.PNG',
-      tags: ['HTML5', 'CSS3'],
-    code: 'https://github.com/Alaa-Elghamry/Magic-Menu',
-    visit: 'https://github.com/Alaa-Elghamry/Magic-Menu',
-    id: 3,
-  },
+
   {
     category: 'Sass',
     title: 'Natours',
@@ -90,6 +81,16 @@ export const projects  = [
     code: 'https://github.com/Alaa-Elghamry/React-Face-Detection',
     visit: 'https://github.com/Alaa-Elghamry/React-Face-Detection',
     id: 7,
+  },
+  {
+    category: 'Animation',
+    title: 'Magic Menu',
+    description: "A 3D Menu with cool Animation built with HTML & CSS only!",
+      image: '/images/magic-menu.PNG',
+      tags: ['HTML5', 'CSS3'],
+    code: 'https://github.com/Alaa-Elghamry/Magic-Menu',
+    visit: 'https://github.com/Alaa-Elghamry/Magic-Menu',
+    id: 3,
   },
   {
     category: 'Animation',
