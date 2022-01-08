@@ -1,6 +1,16 @@
 export const projects  = [
   {
     category: 'React',
+    title: 'Disney Clone',
+    description: "A Disney+ Clone Using React, Redux, Firebase, and Styled-Components with Authentication and Login. ",
+      image: '/images/disney-clone.png',
+      tags: ['React','Redux','Firebase','Styled-Components'],
+    code: 'https://github.com/Alaa-Elghamry/Disney-plus-clone',
+    visit: 'https://disney-clone-d1e27.web.app/home',
+    id: 8,
+  },
+  {
+    category: 'React',
     title: 'Portfolio Website',
     description: "Using React, Next.js, and styled-components I created this portfolio website with moder UI/Ux design and minimalistic approach.",
       image: '/images/My-Portfolio.png',
